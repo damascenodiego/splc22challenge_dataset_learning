@@ -19,9 +19,13 @@ In the splc_paper directory, there is a class named Automata_Learning. You can r
 5) The number of EQ symbols
 
 In this class, the learning parameters are set to the following default values:
+
 The equivalence oracle type: WpMethodEQOracle(2)
+
 The counterexample handling method: CLOSE_FIRST
+
 Caching is not used.
+
 This simple example shows how the L* algorithm can be used to learn an FSM and how the values of learning metrics can be obtained.
 
 ## Generating Random FFSMs or Families of FSMs
