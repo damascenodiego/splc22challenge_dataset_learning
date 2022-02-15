@@ -10,4 +10,25 @@ Behavioral models are the key enablers for behavioral analysis of Software Produ
 
 //TODO
 
+## Generation of Random FFSMs or Families of FSMs
 
+To date there are no systematic procedures for generating synthetic datasets of families of (referred to as Finite State Machine - FSM) with behavioral commonalities/variability for benchmarking active model learning techniques. Thus, the solution for this challenge can be alternatively provided as a tool for randomly generating behavioral variability models, such as _FFSMs_ or _families of FSMs_.
+
+As an approach to generate random FFSM/FSMs models, we expect the authors to report a systematic process and implementation to synthesize:
+
+- Random Featured Finite State Machines (FFSM) or 
+- Random Families of Mealy machines.
+
+In both cases, users shall be able to define a custom:
+
+1. Variability source (i.e., feature model)
+2. Randomness source (i.e., seed)
+3. Number of states of the generated FSMs/FFSM
+4. Input/output alphabets (i.e., set of symbols)
+
+Additionally, we expect that such random FFSMs/families of FSMs must have shared commonalities, but present some behavioral variability, e.g.,:
+
+- Addition/deletion of states
+- Addition/deletion of input symbols
+- Edits of output symbols in transitions
+- Edits of tail states in transitions
