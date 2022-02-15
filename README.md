@@ -24,7 +24,7 @@ The counterexample handling method: CLOSE_FIRST
 Caching is not used.
 This simple example shows how the L* algorithm can be used to learn an FSM and how the values of learning metrics can be obtained.
 
-## Generation of Random FFSMs or Families of FSMs
+## Generating Random FFSMs or Families of FSMs
 
 To date there are no systematic procedures for generating synthetic datasets of families of (referred to as Finite State Machine - FSM) with behavioral commonalities/variability for benchmarking active model learning techniques. Thus, the solution for this challenge can be alternatively provided as a tool for randomly generating behavioral variability models, such as _FFSMs_ or _families of FSMs_.
 
