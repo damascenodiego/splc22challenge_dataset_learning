@@ -9,6 +9,19 @@ Behavioral models are the key enablers for behavioral analysis of Software Produ
 ## Repository structure
 
 //TODO
+In the splc_paper directory, there is a class named Automata_Learning. You can run the Automata_Learning.java using an "sul" argument which specifies the address of an FSM dot file. This FSM model will be learned using the standard L* algorithm. Then the amounts of the following learning metrics will be printed:
+
+1) The number of learning rounds
+2) The number of MQ resets
+3) The number of MQ symbols
+4) The number of EQ resets
+5) The number of EQ symbols
+
+In this class, the learning parameters are set to the following default values:
+The equivalence oracle type: WpMethodEQOracle(2)
+The counterexample handling method: CLOSE_FIRST
+Caching is not used.
+This simple example shows how the L* algorithm can be used to learn an FSM and how the values of learning metrics can be obtained.
 
 ## Generation of Random FFSMs or Families of FSMs
 
