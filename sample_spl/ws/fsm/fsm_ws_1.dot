@@ -1,0 +1,52 @@
+digraph g {
+
+	s0 [shape="circle" label="0"];
+	s1 [shape="circle" label="1"];
+	s2 [shape="circle" label="2"];
+	s3 [shape="circle" label="3"];
+	s4 [shape="circle" label="4"];
+	s0 -> s1 [label="heavy / ok()*ok()"];
+	s0 -> s2 [label="intvWipe / on()"];
+	s0 -> s1 [label="little / ok()*ok()"];
+	s0 -> s0 [label="manWipe / _None_"];
+	s0 -> s0 [label="non / ok()*ok()"];
+	s0 -> s0 [label="weather / noRain()"];
+	s0 -> s0 [label="wipe / off()"];
+	s0 -> s0 [label="work / off()"];
+	s1 -> s1 [label="heavy / ok()*ok()"];
+	s1 -> s3 [label="intvWipe / on()"];
+	s1 -> s1 [label="little / ok()*ok()"];
+	s1 -> s1 [label="manWipe / _None_"];
+	s1 -> s0 [label="non / ok()*ok()"];
+	s1 -> s1 [label="weather / rain()"];
+	s1 -> s1 [label="wipe / off()"];
+	s1 -> s1 [label="work / off()"];
+	s2 -> s4 [label="heavy / ok()*ok()"];
+	s2 -> s0 [label="intvWipe / off()"];
+	s2 -> s4 [label="little / ok()*ok()"];
+	s2 -> s2 [label="manWipe / off()"];
+	s2 -> s2 [label="non / ok()*ok()"];
+	s2 -> s2 [label="weather / noRain()"];
+	s2 -> s2 [label="wipe / intv()"];
+	s2 -> s2 [label="work / _None_"];
+	s3 -> s4 [label="heavy / ok()*ok()"];
+	s3 -> s1 [label="intvWipe / off()"];
+	s3 -> s4 [label="little / ok()*ok()"];
+	s3 -> s3 [label="manWipe / off()"];
+	s3 -> s2 [label="non / ok()*ok()"];
+	s3 -> s3 [label="weather / rain()"];
+	s3 -> s3 [label="wipe / intv()"];
+	s3 -> s3 [label="work / _None_"];
+	s4 -> s4 [label="heavy / ok()*ok()"];
+	s4 -> s4 [label="intvWipe / on()"];
+	s4 -> s4 [label="little / ok()*ok()"];
+	s4 -> s4 [label="manWipe / off()"];
+	s4 -> s2 [label="non / ok()*ok()"];
+	s4 -> s4 [label="weather / rain()"];
+	s4 -> s4 [label="wipe / slow()"];
+	s4 -> s4 [label="work / _None_"];
+
+__start0 [label="" shape="none" width="0" height="0"];
+__start0 -> s0;
+
+}
