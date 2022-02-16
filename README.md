@@ -8,9 +8,7 @@ Behavioral models are the key enablers for behavioral analysis of Software Produ
 
 ## Repository structure
 
-//TODO
-
-In the splc_paper directory, there is a class named Automata_Learning. You can run the Automata_Learning.java using an "sul" argument which specifies the address of an FSM dot file. This FSM model will be learned using the standard L* algorithm. Then the amounts of the following learning metrics will be printed:
+In the [splc_paper directory](splc_paper/), there is a class named Automata_Learning. You can run the [Automata_Learning.java](splc_paper/src/main/java/com/automatalearning1/dir_1/Automata_Learning.java) using an "sul" argument which specifies the address of a dot file expressing a Finite State Machine (FSM). This FSM model will be learned using the standard L* algorithm. Then the amounts of the following learning metrics will be printed:
 
 1) The number of learning rounds
 2) The number of MQ resets
@@ -24,14 +22,15 @@ In this class, the learning parameters are set to the following default values:
 - Caching is not used.
 
 This simple example shows how the L* algorithm can be used to learn an FSM and how the values of learning metrics can be obtained.
+Examples of SPLs with families of FSMs are found in the [sample_spl](sample_spl) directory.
 
 ## Generating Random FFSMs or Families of FSMs
 
-To date there are no systematic procedures for generating synthetic datasets of families of (referred to as Finite State Machine - FSM) with behavioral commonalities/variability for benchmarking active model learning techniques. Thus, the solution for this challenge can be alternatively provided as a tool for randomly generating behavioral variability models, such as _FFSMs_ or _families of FSMs_.
+To date there are no systematic procedures for generating synthetic datasets of families of FSMs with behavioral commonalities/variability for benchmarking active model learning techniques. Thus, the solution for this challenge can be alternatively provided as a tool for randomly generating behavioral variability models, such as Featured FSMs (_FFSMs_) or _families of FSMs_.
 
 As an approach to generate random FFSM/FSMs models, we expect the authors to report a systematic process and implementation to synthesize:
 
-- Random Featured Finite State Machines (FFSM) or 
+- Random Featured Finite State Machines or 
 - Random Families of Mealy machines.
 
 In both cases, users shall be able to define a custom:
