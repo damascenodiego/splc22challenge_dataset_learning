@@ -28,7 +28,7 @@ Examples of SPLs with families of FSMs are found in the [sample_spl](sample_spl)
 
 To date there are no systematic procedures for generating synthetic datasets of families of FSMs with behavioral commonalities/variability for benchmarking active model learning techniques. Thus, the solution for this challenge can be alternatively provided as a tool for randomly generating behavioral variability models, such as Featured FSMs (_FFSMs_) or _families of FSMs_.
 
-As an approach to generate random FFSM/FSMs models, we expect the authors to report a systematic process and implementation to synthesize:
+As an approach to generate random FFSM/FSMs models, we expect the participants to report a systematic process and implementation to synthesize:
 
 - Random Featured Finite State Machines or 
 - Random Families of Mealy machines.
