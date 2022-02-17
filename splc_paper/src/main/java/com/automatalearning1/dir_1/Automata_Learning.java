@@ -135,7 +135,7 @@ public class Automata_Learning {
 			array_1[4] += ExtractValue(eq_sym.getStatisticalData().getSummary());
 
 			System.out.println("Learning algorithm: L_star");
-			System.out.println("Number of rounds: " + array_1[0]);
+			System.out.println("Number of learning rounds: " + array_1[0]);
 			System.out.println("Number of MQ [resets]: " + array_1[1]);
 			System.out.println("Number of MQ [symbols]: " + array_1[2]);
 			System.out.println("Number of EQ [resets]: " + array_1[3]);
