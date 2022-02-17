@@ -34,6 +34,7 @@
 	<classpathentry kind="lib" path="lib/jakarta.jar"/>
 	<classpathentry kind="lib" path="lib/org.sat4j.pb.jar"/>
 	<classpathentry kind="lib" path="mylearn.jar"/>
+	<classpathentry kind="lib" path="learnFFSM.jar"/>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
 			<attribute name="test" value="true"/>
