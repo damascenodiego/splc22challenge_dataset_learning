@@ -146,7 +146,6 @@ public class AutomataLearning {
 			System.err.println("Unexpected Exception");
 			e.printStackTrace();
 		}
-
 	}
 
 	private static ExperimentAndLearner learningLStarM(CompactMealy<String, Word<String>> mealyss,
