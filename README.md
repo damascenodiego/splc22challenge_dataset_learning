@@ -8,7 +8,7 @@ Behavioral models are the key enablers for behavioral analysis of Software Produ
 
 ## Repository structure
 
-In the [splc_paper directory](splc_paper/), there is a class named Automata_Learning. You can run the [Automata_Learning.java](splc_paper/src/main/java/com/automatalearning1/dir_1/Automata_Learning.java) using an "sul" argument which specifies the address of a dot file expressing a Finite State Machine (FSM). This FSM model will be learned using the standard L* algorithm. Then the amounts of the following learning metrics will be printed:
+In the [splc_paper directory](splc_paper/), there is a class named Automata_Learning. You can run the [AutomataLearning.java](splc_paper/src/main/java/ir/ac/ut/fml/AutomataLearning.java) using an "sul" argument which specifies the address of a dot file expressing a Finite State Machine (FSM). This FSM model will be learned using the standard L* algorithm. Then the amounts of the following learning metrics will be printed:
 
 1) The number of learning rounds
 2) The number of MQ resets
